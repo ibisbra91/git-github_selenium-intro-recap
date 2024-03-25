@@ -11,3 +11,22 @@ de que no lo sea, el test falle.
 ¿Cómo se hace para detectar cuando la lista está vacía?
 Se puede asertar que el tamaño de la lista no sea 0. Con:
 Assert.assertNotEquals(lista.size(), 0);
+
+Ejercicio
+Obtener todos los elementos cuya tagName sea “h112”.
+¿Qué excepción se arroja?
+Agregar asserts para validar que la lista se encuentre vacía.
+List<WebElement> elementsList = driver.findElements(By.tagName("h112"));
+Assert.assertTrue(elementsList.isEmpty() == false);
+// isEmpty arroja true, si la lista está vacia…
+// si la esta tiene elementos, isEmpty() es false…
+// falso == falso.. Por lo tanto, la condición es verdadera, por lo que el
+assert no fallará.. Porque estoy acertando en True, es decir, esperando que la
+condicion sea verdadera..
+Assert.assertFalse(elementsList.isEmpty() == true);
+// si la lista está vacía… isEmpty == true… y true == true
+Assert.assertFalse(elementsList.isEmpty() == true);
+
+El test va a fallar porque estoy acertando que la condición sea falsa, si
+condicion no es falsa, entonces, el assert fallará...
+Assert.assertEquals(0, elementsList.size());
