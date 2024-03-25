@@ -7,3 +7,7 @@ la lista queda simplemente vacía o en null. No hay errores.
 ¿Cómo se hace para mejorar la calidad del test?
 Se deben agregar asserts para validar que el flujo del test es el que se espera y en caso
 de que no lo sea, el test falle.
+
+¿Cómo se hace para detectar cuando la lista está vacía?
+Se puede asertar que el tamaño de la lista no sea 0. Con:
+Assert.assertNotEquals(lista.size(), 0);
