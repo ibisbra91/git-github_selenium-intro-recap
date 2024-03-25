@@ -1,0 +1,5 @@
+observaciones personles sobre los cimientos del comportamiento de selenium webdriver. Breves.
+
+¿Qué ocurre cuando no se encuentran los elementos y se guardan en una lista?
+El método findElements, no da error cuando no se encuentran elementos, por lo que
+la lista queda simplemente vacía o en null. No hay errores.
