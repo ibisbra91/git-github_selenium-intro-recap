@@ -33,13 +33,37 @@ Assert.assertEquals(0, elementsList.size());
 
 
 added comment to play with git checkout
-agregada otra linea para jugar con git chekout
-agregada otra linea para jugar con git chekout
-agregada otra linea para jugar con git chekout
-agregada otra linea para jugar con git chekout
 
-sgte commit :) 
-agregada otra linea para jugar con git chekout
-agregada otra linea para jugar con git chekout
-agregada otra linea para jugar con git chekout
-agregada otra linea para jugar con git chekout
+Comenzando a automatizar usando Selenium y Cucumber:
+Herramientas a instalar localmente en la máquina donde se correrán los tests:
+Java JDK
+Maven
+Geckodriver
+Internet Explorer Webdriver si se amerita (https://docs.seleniumhq.org/download/ )
+Nota: Es preferible que todo se instale a través de instalador de paquetes de línea de comando, para que las variables de entorno sean configuradas en el momento en que se instalan los paquetes. Para Windows existe Chocolatey y para Mac homebrew
+
+Para configurar el webdriver de IE es necesario pasarle como parámetros de configuración el directorio donde se encuentra el .exe, quedando de la siguiente manera:
+
+
+System.setProperty("webdriver.ie.driver","c:\\Users\\jrinc\\Desktop\\IEDriverServer.exe");
+
+También se debe habilitar el Modo Protegido para el navegador. Esto se hace abriendo internet explorer, botón de configuración, luego ir a opciones de internet, luego Seguridad y habilitar modo protegido para Internet, Intranet Local, Sitios de Confianza y Sitios Restringidos
+
+‍
+
+‍
+
+Dependencias Maven utilizar:
+junit
+cucumber-java
+cucumber-junit
+selenium-java
+maven-compiler-plugin
+‍
+
+‍
+
+Herramientas de trabajo:
+Algún IDE de tu preferencia (también se puede usar vim)
+
+Ahora sí, comencemos, y esto se hace generando un proyecto Maven desde 0 a través del IDE.
