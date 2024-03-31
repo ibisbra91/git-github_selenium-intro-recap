@@ -1,0 +1,8 @@
+data provider
+
+1. Ejercicio
+Crear una clase llamada testngSalesforce que importe import org.testng.annotations.DataProvider;
+Crear un método llamado crearPersonas que retorne una matriz de tipo object con dos
+nombres y dos edades.
+
+
