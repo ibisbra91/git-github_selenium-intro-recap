@@ -1,0 +1,9 @@
+/*Fakers
+
+Ejercicios
+1. Investigar la informacioón que esta en https://github.com/DiUS/java-faker */
+
+String name = faker.name().fullName();  //Miss Samantha Schmidt
+String firstName = faker.name().firstName();  //Emory
+String lastName = faker.name().lastName();  //Barton
+String streetAddress = faker.address().streetAddress();  //Miss Samantha Schmidt
