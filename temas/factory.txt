@@ -1,0 +1,9 @@
+Factory
+
+Ejercicios:
+
+1. Crear una clase llamada DocusignFactory y una clase llamada DocusignFactoryTest.
+DocusignFactoryTest debe acceder al sitio “https://go.docusign.com/o/trial/” y debe tener un
+método de test que valide que el título de Docusign sea “DocuSign Free Trial”
+DocusignFactory debe invocar 3 veces a la clase DocusignFactoryTest creando nuevas
+instancias de la misma.
