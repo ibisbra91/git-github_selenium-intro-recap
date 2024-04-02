@@ -1,12 +1,21 @@
-data provider
+DATA PROVIDERS
 
 1. Ejercicio
 Crear una clase llamada testngSalesforce que importe import org.testng.annotations.DataProvider;
 Crear un método llamado crearPersonas que retorne una matriz de tipo object con dos
 nombres y dos edades.
 
-RESPUESTA:
+3. Ejercicio
+Crear una clase llamada PeopleSimpleTest que contenga un @DataProvider llamado
+“personas” que retorne un arreglo bidireccional de objetos con datos el nombre y la edad de 2
+personas.
+Crear un método llamado nombreTests que reciba el nombre y la edad de las personas y las
+imprima en pantalla.
 
+
+RESPUESTAS:
+
+resp. 1:
 public class dataProviderTests{
 	@DataProvider(name = "mugiwaras")
 	public Object[][] crearSombrerosDePaja(){
@@ -23,3 +32,4 @@ public class dataProviderTests{
 }
 
 
+resp. 3:

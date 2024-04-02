@@ -1,7 +1,18 @@
-/*Fakers
+FAKERS
+
+ejemplo de uso: Crear una clase específica para generar Datos:
+public static Faker faker = new Faker();
+
+public static String getFirstName(){
+	//generating the first name
+	String firstName = faker.name().firstName();
+	return firstName;
+}
+
+
 
 Ejercicios
-1. Investigar la informacioón que esta en https://github.com/DiUS/java-faker */
+1. Investigar la informacioón que esta en https://github.com/DiUS/java-faker
 
 String name = faker.name().fullName();  //Miss Samantha Schmidt
 String firstName = faker.name().firstName();  //Emory
