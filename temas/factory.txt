@@ -7,3 +7,18 @@ DocusignFactoryTest debe acceder al sitio “https://go.docusign.com/o/trial/”
 método de test que valide que el título de Docusign sea “DocuSign Free Trial”
 DocusignFactory debe invocar 3 veces a la clase DocusignFactoryTest creando nuevas
 instancias de la misma.
+
+RESPUESTA:
+
+public class DocusignFactory{
+	
+	@Factory
+	public Object[] factoryMethod(){
+		return new Object[]{
+			new DocusignFactoryTest(),
+			new DocusignFactoryTest(),
+			new DocusignFactoryTest()			
+		};
+	}
+}
+

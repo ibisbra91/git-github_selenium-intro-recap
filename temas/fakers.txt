@@ -1,4 +1,9 @@
-Fakers
+FAKERS
+
+Motivación (para usar fakers en mis automatizaciones :)
++ Generar datos de forma aleatoria.
++ Cada vez que ejecuto los tests, quiero tener diferentes datos para enviar. 
+
 
 Ejercicios:
 

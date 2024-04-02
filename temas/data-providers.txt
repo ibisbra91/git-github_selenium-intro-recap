@@ -5,7 +5,18 @@ Crear una clase llamada testngSalesforce que importe import org.testng.annotatio
 Crear un método llamado crearPersonas que retorne una matriz de tipo object con dos
 nombres y dos edades.
 
-RESPUESTA:
+2. Ejercicio
+Crear una clase llamada DataGenerator
+Crear un método llamado DataProviderEjemplo que muestre en pantalla las capitales que se
+encuentran en la clase DataGenerator con las capitales y su respectivo país.
+
+a) Crear un método llamado mostrarDatosPersonas que reciben el nombre, apellido y edad
+de las personas.
+
+
+
+
+RESPUESTA al ejercicio 1:
 
 public class dataProviderTests{
 	@DataProvider(name = "mugiwaras")
@@ -22,4 +33,8 @@ public class dataProviderTests{
 	}
 }
 
+
+RESPUESTA al ejercicio 2:
+
+respuesta a)
 
