@@ -1,5 +1,10 @@
 FAKERS
 
+Motivación (para usar fakers en mis automatizaciones :)
++ Generar datos de forma aleatoria.
++ Cada vez que ejecuto los tests, quiero tener diferentes datos para enviar. 
+
+
 ejemplo de uso: Crear una clase específica para generar Datos:
 public static Faker faker = new Faker();
 
@@ -11,10 +16,16 @@ public static String getFirstName(){
 
 
 
-Ejercicios
+Ejercicios:
+
 1. Investigar la informacioón que esta en https://github.com/DiUS/java-faker
+
+RESPUESTA:
 
 String name = faker.name().fullName();  //Miss Samantha Schmidt
 String firstName = faker.name().firstName();  //Emory
 String lastName = faker.name().lastName();  //Barton
 String streetAddress = faker.address().streetAddress();  //Miss Samantha Schmidt
+
+
+2. 

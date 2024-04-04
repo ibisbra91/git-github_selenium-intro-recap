@@ -1,0 +1,59 @@
+commit 1c95d42ce4fb177312b1bbe7a0bd2b14d130c823
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Sun Mar 31 20:08:57 2024 -0300
+
+    Content replacement since the 2nd to last version: contemplating Selenium with Cucumber. Yeah.
+
+commit b570f00c9ccd20fcc55bbf794575012935e798c8
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Sun Mar 31 19:46:06 2024 -0300
+
+    Play 3: git checkout
+
+commit 05790e77707a8a26fc5bf0c30b68aa668513f17e
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Sun Mar 31 19:45:17 2024 -0300
+
+    Play 2: git checkout
+
+commit 9baa97ea2ccbfde0e4c76f88de1327daaaa17253
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Sun Mar 31 19:12:19 2024 -0300
+
+    Playing with the checkout command. Comment added in selenium file
+
+commit 5a541fb63775683773b4c656e42c8e4c6cc88cbf
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Sun Mar 31 18:29:44 2024 -0300
+
+    Added answer from exercise 1 to the fakers.txt file
+
+commit a90d109d236f67777a7be5df9a83849d436e7a1a
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Sun Mar 31 18:05:18 2024 -0300
+
+    Created files: data-provider.txt and fakers.txt | 1st exercise in both.
+
+commit be4cc7e8f6b48b7e4eeff81e96ae1d607e246dee
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Mon Mar 25 15:12:25 2024 -0300
+
+    Excercise 1: with css locator. Error analysis. Added Assert to validate empty list.
+
+commit 22ef2497fbe1655d9355c93d88f146f33cdf400f
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Mon Mar 25 14:39:14 2024 -0300
+
+    How to detect when the list is empty? (assertNotEquals(x, y))
+
+commit a2149f12406eee2d949fb4c5a6e14f5c175b4610
+Author: Ibis <ibisbra91@gmail.com>
+Date:   Mon Mar 25 12:54:35 2024 -0300
+
+    How to improve the quality of automated testing with selenium: Added
+
+commit 910d2532773078601e4de9028b49b3aa1d8e8a12
+Author: Ibita <ibisbra91@gmail.com>
+Date:   Mon Mar 25 10:21:31 2024 -0300
+
+    selenium1 File created

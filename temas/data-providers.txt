@@ -1,3 +1,4 @@
+
 DATA PROVIDERS
 
 1. Ejercicio
@@ -5,12 +6,23 @@ Crear una clase llamada testngSalesforce que importe import org.testng.annotatio
 Crear un método llamado crearPersonas que retorne una matriz de tipo object con dos
 nombres y dos edades.
 
+
+2. Ejercicio
+Crear una clase llamada DataGenerator
+Crear un método llamado DataProviderEjemplo que muestre en pantalla las capitales que se
+encuentran en la clase DataGenerator con las capitales y su respectivo país.
+
+a) Crear un método llamado mostrarDatosPersonas que reciben el nombre, apellido y edad
+de las personas.
+
+
 3. Ejercicio
 Crear una clase llamada PeopleSimpleTest que contenga un @DataProvider llamado
 “personas” que retorne un arreglo bidireccional de objetos con datos el nombre y la edad de 2
 personas.
 Crear un método llamado nombreTests que reciba el nombre y la edad de las personas y las
 imprima en pantalla.
+
 
 
 RESPUESTAS:
@@ -32,4 +44,8 @@ public class dataProviderTests{
 }
 
 
+
+resp. 2:
+
 resp. 3:
+
