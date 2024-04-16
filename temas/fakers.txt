@@ -28,4 +28,13 @@ String lastName = faker.name().lastName();  //Barton
 String streetAddress = faker.address().streetAddress();  //Miss Samantha Schmidt
 
 
-2. 
+2. Agregar al pom.xml la dependencia a java-fakers
+
+RESPUESTA:
+
+<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<dependency>
+	<groupId>com.github.javafaker</groupId>
+	<artifactId>javafaker</artifactId>
+	<version>1.0.2</version>
+</dependency>
