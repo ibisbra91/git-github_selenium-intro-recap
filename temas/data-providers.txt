@@ -1,13 +1,13 @@
 
 DATA PROVIDERS
 
-1. Ejercicio
+Ejercicio 1:
 Crear una clase llamada testngSalesforce que importe import org.testng.annotations.DataProvider;
 Crear un método llamado crearPersonas que retorne una matriz de tipo object con dos
 nombres y dos edades.
 
 
-2. Ejercicio
+Ejercicio 2:
 Crear una clase llamada DataGenerator
 Crear un método llamado DataProviderEjemplo que muestre en pantalla las capitales que se
 encuentran en la clase DataGenerator con las capitales y su respectivo país.
@@ -16,7 +16,7 @@ a) Crear un método llamado mostrarDatosPersonas que reciben el nombre, apellido
 de las personas.
 
 
-3. Ejercicio
+Ejercicio 3:
 Crear una clase llamada PeopleSimpleTest que contenga un @DataProvider llamado
 “personas” que retorne un arreglo bidireccional de objetos con datos el nombre y la edad de 2
 personas.
@@ -46,6 +46,21 @@ public class dataProviderTests{
 
 
 resp. 2:
+@DataProvider(name="countries")
+public Object[][] paisesConCapitales(){
+	return new Object[][] {
+		{"Valencia", "Spain"},
+		{"Toronto", "Canada"},
+		{"Sydney", "Australia"},
+		{"Amsterdam", "Holland Netherlands"},
+	};
+	}
+	
+@Test(dataProvider = "countries", dataProviderClass = DataGenerator.class)	
+public void testOfDataProviders(String capital, String country){
+	System.out.println("The capital of " + country + " is " + capital)
+}
+
 
 resp. 3:
 
