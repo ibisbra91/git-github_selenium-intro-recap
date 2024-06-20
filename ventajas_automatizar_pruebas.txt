@@ -1,0 +1,12 @@
+Ventajas de la automatización de pruebas:
+
+Las ventajas que nos ofrece la automatización de pruebas son las siguientes:
+
+1. Mejorar la eficiencia de las pruebas.
+2. Proporcionar una cobertura de pruebas más amplia con respecto a las pruebas manuales.
+3. Reducir el costo total de las pruebas, es decir, no implicar costos que generarían acciones innecesarias como las pruebas manuales.
+4. Acortar el periodo de ejecución de las pruebas.
+5. Aumentar la frecuencia de las pruebas reduciendo el tiempo requerido para los ciclos de prueba.
+6. Se pueden ejecutar más pruebas por compilación o por liberación.
+7. La posibilidad de crear pruebas que no se pueden realizar manualmente, como las pruebas en tiempo real o pruebas paralelas.
+8. Las pruebas están menos sujetas a errores del operador. Una vez que se haya programado, no van a fallar.
